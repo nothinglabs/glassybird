@@ -22,6 +22,7 @@ bool OptionLayer::init()
 		auto dispatcher = Director::getInstance()->getEventDispatcher();
         auto listener = EventListenerTouchAllAtOnce::create();
         listener->onTouchesBegan = CC_CALLBACK_2(OptionLayer::onTouchesBegan, this);
+        listener->onTouchesEnded = CC_CALLBACK_2(OptionLayer::onTouchesEnded, this);
         dispatcher->addEventListenerWithSceneGraphPriority(listener, this);
 
 		return true;
@@ -33,4 +34,14 @@ bool OptionLayer::init()
 void OptionLayer::onTouchesBegan(const std::vector<Touch*>& touches, Event *event)
 {
 	this->delegator->onTouch();
+	Point position = touches[0]->getLocation();
+	lastTouchY = position.y;
+}
+
+void OptionLayer::onTouchesEnded(const std::vector<Touch*>& touches, Event *event)
+{
+	Point position = touches[0]->getLocation();
+
+	//swipe down to quit
+	if (lastTouchY - position.y > 60) CCDirector::sharedDirector()->end();
 }

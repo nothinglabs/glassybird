@@ -6,6 +6,8 @@
 #include "GameScene.h"
 #include "Number.h"
 #include "SimpleAudioEngine.h"
+#include "OptionLayer.h"
+
 #include <cstdlib>
 
 using namespace std;
@@ -16,7 +18,7 @@ const string NUMBER_SCORE = "number_score";
 const string NUMBER_FONT = "font";
 const int CURRENT_SCORE_SPRITE_TAG = 10001;
 
-class StatusLayer:public Layer,public StatusDelegate{
+class StatusLayer:public Layer,public StatusDelegate, public OptionDelegate{
 public:
 	StatusLayer(void);
 
@@ -31,6 +33,9 @@ public:
 	void onGamePlaying(int score);
 
 	void onGameEnd(int curScore, int bestScore);
+
+	void onTouch();
+
 
 private:
 	void showReadyStatus();
@@ -82,4 +87,7 @@ private:
 	Point originPoint;
 
 	Size visibleSize;
+
+	bool tapToRestart = false;
+
 };

@@ -14,13 +14,15 @@ using namespace CocosDenshion;
 
 const int START_BUTTON_TAG = 100;
 
-class WelcomeLayer : public Layer{
+class WelcomeLayer : public Layer, public OptionDelegate {
 public:
 	WelcomeLayer(void);
 	~WelcomeLayer(void);
 	virtual bool init();
 	// implement the "static create()" method manually
 	CREATE_FUNC(WelcomeLayer);
+	void onTouch();
+
     
 private:
 	/**
@@ -32,7 +34,7 @@ private:
      * This method is make the land have a scroll animation
      */
 	void scrollLand(float dt);
-    
+
 	Sprite *land1;
 	Sprite *land2;
 	BirdSprite *bird;

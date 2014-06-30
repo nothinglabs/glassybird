@@ -89,3 +89,10 @@ void WelcomeLayer::menuStartCallback(Object *sender){
 	Director::getInstance()->replaceScene(transition);
 }
 
+void WelcomeLayer::onTouch() {
+	SimpleAudioEngine::getInstance()->playEffect("sfx_swooshing.ogg");
+	this->removeChildByTag(BIRD_SPRITE_TAG);
+	auto scene = GameScene::create();
+	TransitionScene *transition = TransitionFade::create(1, scene);
+	Director::getInstance()->replaceScene(transition);
+}

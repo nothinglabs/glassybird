@@ -36,6 +36,12 @@ bool GameScene::init(){
 			optionLayer->setDelegator(gameLayer);
 			this->addChild(optionLayer);
 		}
+
+		auto statusOptionLayer = OptionLayer::create();
+		if(statusOptionLayer) {
+			statusOptionLayer->setDelegator(statusLayer);
+			this->addChild(statusOptionLayer);
+		}
 		return true;
 	}else {
 		return false;

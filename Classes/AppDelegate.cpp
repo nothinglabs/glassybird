@@ -16,11 +16,12 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto eglView = director->getOpenGLView();
 
     director->setOpenGLView(eglView);
-	eglView->setDesignResolutionSize(288,512, ResolutionPolicy::SHOW_ALL);
+	eglView->setDesignResolutionSize(288,512, kResolutionExactFit);
+
 
 	// set the resource directory
 	this->setResourceSearchResolution();
-	
+
     // turn on display FPS
     director->setDisplayStats(false);
 

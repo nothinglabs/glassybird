@@ -3,7 +3,7 @@ Copyright (c) 2008-2010 Ricardo Quesada
 Copyright (c) 2010-2012 cocos2d-x.org
 Copyright (c) 2011      Zynga Inc.
 Copyright (c) 2013-2014 Chukong Technologies Inc.
- 
+
 http://www.cocos2d-x.org
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -26,7 +26,31 @@ THE SOFTWARE.
 ****************************************************************************/
 package org.cocos2dx.cpp;
 
-import org.cocos2dx.lib.Cocos2dxActivity;
+import org.cocos2dx.lib.*;
+import android.view.MotionEvent;
+import android.util.Log;
+
 
 public class AppActivity extends Cocos2dxActivity {
+
+    Cocos2dxGLSurfaceView glSurfaceView;
+
+    @Override
+    public Cocos2dxGLSurfaceView onCreateView() {
+        glSurfaceView = new Cocos2dxGLSurfaceView(this);
+        glSurfaceView.setEGLConfigChooser(5, 6, 5, 0, 16, 8);
+        return glSurfaceView;
+    }
+
+
+    @Override
+    public boolean onGenericMotionEvent(MotionEvent event) {
+
+        Log.d("start", "onGenericMotionEvent: " + event);
+
+        glSurfaceView.onTouchEvent(event);
+        return false;
+    }
+
+
 }

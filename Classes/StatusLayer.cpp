@@ -177,6 +177,8 @@ void StatusLayer::fadeInRestartBtn(){
 void StatusLayer::refreshScoreCallback(){
 	this->tmpScore = 0;
 	schedule(schedule_selector(StatusLayer::refreshScoreExecutor),0.1f);
+	tapToRestart = true;
+
 }
 
 void StatusLayer::refreshScoreExecutor(float dt){
@@ -243,4 +245,14 @@ void StatusLayer::menuRestartCallback(Object* pSender){
     auto scene = GameScene::create();
     TransitionScene *transition = TransitionFade::create(1, scene);
     Director::getInstance()->replaceScene(transition);
+}
+
+void StatusLayer::onTouch(){
+	if (tapToRestart) {
+		tapToRestart = false;
+		SimpleAudioEngine::getInstance()->playEffect("sfx_swooshing.ogg");
+		auto scene = GameScene::create();
+		TransitionScene *transition = TransitionFade::create(1, scene);
+		Director::getInstance()->replaceScene(transition);
+	}
 }
