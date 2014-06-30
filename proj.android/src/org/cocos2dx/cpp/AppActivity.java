@@ -26,17 +26,29 @@ THE SOFTWARE.
 ****************************************************************************/
 package org.cocos2dx.cpp;
 
+import android.os.Bundle;
+import android.view.WindowManager;
 import org.cocos2dx.lib.*;
 import android.view.MotionEvent;
 import android.util.Log;
+
+import com.google.android.glass.eye.EyeGesture;
+import com.google.android.glass.eye.EyeGestureManager;
+import com.google.android.glass.eye.EyeGestureManager.Listener;
 
 
 public class AppActivity extends Cocos2dxActivity {
 
     Cocos2dxGLSurfaceView glSurfaceView;
 
+    private EyeGestureManager mEyeGestureManager;
+    private EyeGestureListener mEyeGestureListener;
+
+    private EyeGesture target1 = EyeGesture.DOUBLE_BLINK;
+
     @Override
     public Cocos2dxGLSurfaceView onCreateView() {
+
         glSurfaceView = new Cocos2dxGLSurfaceView(this);
         glSurfaceView.setEGLConfigChooser(5, 6, 5, 0, 16, 8);
         return glSurfaceView;
@@ -50,6 +62,70 @@ public class AppActivity extends Cocos2dxActivity {
 
         glSurfaceView.onTouchEvent(event);
         return false;
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        mEyeGestureManager.stopDetector(target1);
+        mEyeGestureManager.enableDetectorPersistently(target1, true);
+        mEyeGestureManager.register(target1, mEyeGestureListener);
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+
+        mEyeGestureManager = EyeGestureManager.from(this);
+        mEyeGestureListener = new EyeGestureListener();
+
+        for (EyeGesture eg : EyeGesture.values()) {
+            boolean supported = mEyeGestureManager.isSupported(eg);
+            Log.d("", eg.name() + ":" + supported);
+        }
+
+        super.onCreate(savedInstanceState);
+    }
+
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+
+        mEyeGestureManager.unregister(target1, mEyeGestureListener);
+        //mEyeGestureManager.unregister(target2, mEyeGestureListener);
+
+        mEyeGestureManager.stopDetector(target1);
+        //mEyeGestureManager.stopDetector(target2);
+    }
+
+    private class EyeGestureListener implements Listener {
+
+        @Override
+        public void onEnableStateChange(EyeGesture eyeGesture, boolean paramBoolean) {
+            Log.i("", eyeGesture + " state changed:" + paramBoolean);
+        }
+
+        @Override
+        public void onDetected(final EyeGesture eyeGesture) {
+            Log.i("", eyeGesture + " is detected");
+
+            MotionEvent motionEvent;
+
+            motionEvent = MotionEvent.obtain(
+                    0,0,MotionEvent.ACTION_DOWN,0,0,0);
+
+            glSurfaceView.onTouchEvent(motionEvent);
+
+            motionEvent = MotionEvent.obtain(
+                    0,0,MotionEvent.ACTION_DOWN,0,0,0);
+
+            glSurfaceView.onTouchEvent(motionEvent);
+
+
+        }
     }
 
 
