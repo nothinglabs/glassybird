@@ -1,9 +1,9 @@
 obj/local/armeabi/objs/box2d_static/Dynamics/Joints/b2WheelJoint.o: \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/Dynamics/Joints/b2WheelJoint.cpp \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2WheelJoint.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/Dynamics/Joints/b2WheelJoint.cpp \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2WheelJoint.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -28,20 +28,20 @@ obj/local/armeabi/objs/box2d_static/Dynamics/Joints/b2WheelJoint.o: \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2Body.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2Body.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/memory \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2TimeStep.h
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2TimeStep.h
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2WheelJoint.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2WheelJoint.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
 
@@ -91,14 +91,14 @@ obj/local/armeabi/objs/box2d_static/Dynamics/Joints/b2WheelJoint.o: \
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2Body.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2Body.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h:
 
 /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/memory:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2TimeStep.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2TimeStep.h:

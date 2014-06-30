@@ -1,5 +1,5 @@
 obj/local/armeabi/objs/chipmunk_static/src/cpSpace.o: \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/src/cpSpace.c \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/src/cpSpace.c \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -19,8 +19,8 @@ obj/local/armeabi/objs/chipmunk_static/src/cpSpace.o: \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
@@ -33,26 +33,26 @@ obj/local/armeabi/objs/chipmunk_static/src/cpSpace.o: \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpVect.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBB.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBody.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpShape.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpVect.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBB.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBody.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpShape.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h:
 
@@ -92,9 +92,9 @@ obj/local/armeabi/objs/chipmunk_static/src/cpSpace.o: \
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
@@ -120,42 +120,42 @@ obj/local/armeabi/objs/chipmunk_static/src/cpSpace.o: \
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpVect.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpVect.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBB.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBB.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBody.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBody.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpShape.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpShape.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpace.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpace.h:

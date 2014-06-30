@@ -99,7 +99,7 @@ void GameLayer::onTouch() {
 		this->gameStatus = GAME_STATUS_START;
         this->createPips();
 	}else if(this->gameStatus == GAME_STATUS_START) {
-		this->bird->getPhysicsBody()->setVelocity(Vect(0, 260));
+		this->bird->getPhysicsBody()->setVelocity(Vect(0, 90));
 	}
 }
 

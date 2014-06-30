@@ -4,61 +4,59 @@
 
 USING_NS_CC;
 
-AppDelegate::AppDelegate() {}
+AppDelegate::AppDelegate() {
+}
 
-AppDelegate::~AppDelegate() 
-{
+AppDelegate::~AppDelegate() {
 }
 
 bool AppDelegate::applicationDidFinishLaunching() {
-    // initialize director
-    auto director = Director::getInstance();
-    auto eglView = EGLView::getInstance();
+	// initialize director
+	auto director = Director::getInstance();
+	auto eglView = EGLView::getInstance();
 
-    director->setOpenGLView(eglView);
-	eglView->setDesignResolutionSize(288,512, kResolutionExactFit);
+	director->setOpenGLView(eglView);
+	eglView->setDesignResolutionSize(288, 512, kResolutionExactFit);
 
 	// set the resource directory
 	this->setResourceSearchResolution();
-	
-    // turn on display FPS
-    director->setDisplayStats(false);
 
-    // set FPS. the default value is 1.0/60 if you don't call this
-    director->setAnimationInterval(1.0 / 60);
+	// turn on display FPS
+	director->setDisplayStats(false);
 
-    // create a scene. it's an autorelease object
-    auto scene = LoadingScene::create();
+	// set FPS. the default value is 1.0/60 if you don't call this
+	director->setAnimationInterval(1.0 / 60);
 
-    // run
-    director->runWithScene(scene);
+	// create a scene. it's an autorelease object
+	auto scene = LoadingScene::create();
 
-    return true;
+	// run
+	director->runWithScene(scene);
+
+	return true;
 }
 
 // This function will be called when the app is inactive. When comes a phone call,it's be invoked too
 void AppDelegate::applicationDidEnterBackground() {
-    Director::getInstance()->stopAnimation();
+	Director::getInstance()->stopAnimation();
 
-    // if you use SimpleAudioEngine, it must be pause
-    // SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
+	// if you use SimpleAudioEngine, it must be pause
+	// SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
 }
 
 // this function will be called when the app is active again
 void AppDelegate::applicationWillEnterForeground() {
-    Director::getInstance()->startAnimation();
+	Director::getInstance()->startAnimation();
 
-    // if you use SimpleAudioEngine, it must resume here
-    // SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
+	// if you use SimpleAudioEngine, it must resume here
+	// SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
 }
 
-void AppDelegate::setResourceSearchResolution()
-{
-    std::vector<std::string> paths;
+void AppDelegate::setResourceSearchResolution() {
+	std::vector < std::string > paths;
 	paths.push_back("fonts");
-    paths.push_back("image");
-    paths.push_back("sounds");
-    FileUtils::getInstance()->setSearchResolutionsOrder(paths);
+	paths.push_back("image");
+	paths.push_back("sounds");
+	FileUtils::getInstance()->setSearchResolutionsOrder(paths);
 }
-
 

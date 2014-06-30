@@ -1,5 +1,5 @@
 obj/local/armeabi/objs/cocos2dx_static/base64.o: \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/base64.cpp \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/base64.cpp \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -22,7 +22,7 @@ obj/local/armeabi/objs/cocos2dx_static/base64.o: \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/base64.h
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/base64.h
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h:
 
@@ -68,4 +68,4 @@ obj/local/armeabi/objs/cocos2dx_static/base64.o: \
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/base64.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/base64.h:

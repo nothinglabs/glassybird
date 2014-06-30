@@ -1,14 +1,14 @@
 obj/local/armeabi/objs/cocos2dxandroid_static/CCDevice.o: \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/CCDevice.cpp \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../platform/CCDevice.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformMacros.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../ccConfig.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformConfig.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformConfig.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCDevice.cpp \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../platform/CCDevice.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformMacros.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../ccConfig.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformConfig.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformConfig.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../ccMacros.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCConsole.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../ccMacros.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCConsole.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/select.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -45,34 +45,34 @@ obj/local/armeabi/objs/cocos2dxandroid_static/CCDevice.o: \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/thread \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/vector \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformMacros.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformMacros.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../ccConfig.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/jni/DPIJni.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/nativeactivity.h
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../ccConfig.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/jni/DPIJni.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/nativeactivity.h
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../platform/CCDevice.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../platform/CCDevice.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformMacros.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformMacros.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../ccConfig.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../ccConfig.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformConfig.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformConfig.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformConfig.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformConfig.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../ccMacros.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../ccMacros.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCConsole.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCConsole.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/select.h:
 
@@ -146,9 +146,9 @@ obj/local/armeabi/objs/cocos2dxandroid_static/CCDevice.o: \
 
 /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformMacros.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../../base/CCPlatformMacros.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
 
@@ -160,8 +160,8 @@ obj/local/armeabi/objs/cocos2dxandroid_static/CCDevice.o: \
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/../../ccConfig.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/../../ccConfig.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/jni/DPIJni.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/jni/DPIJni.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/platform/android/nativeactivity.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/nativeactivity.h:

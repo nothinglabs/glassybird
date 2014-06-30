@@ -1,8 +1,8 @@
 obj/local/armeabi/objs/box2d_static/Rope/b2Rope.o: \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/Rope/b2Rope.cpp \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Rope/b2Rope.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/Rope/b2Rope.cpp \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Rope/b2Rope.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -27,13 +27,13 @@ obj/local/armeabi/objs/box2d_static/Rope/b2Rope.o: \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Draw.h
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Draw.h
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Rope/b2Rope.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Rope/b2Rope.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
 
@@ -83,4 +83,4 @@ obj/local/armeabi/objs/box2d_static/Rope/b2Rope.o: \
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Draw.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Draw.h:

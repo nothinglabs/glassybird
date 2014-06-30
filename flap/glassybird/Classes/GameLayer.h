@@ -47,12 +47,12 @@ const float PIP_SHIFT_SPEED = 80.0f;
 /**
  * The distance between the down pip and up pip
  */
-const int PIP_DISTANCE = 100;
+const int PIP_DISTANCE = 170;
 
 /**
  * The distance between the pips vertical
  */
-const int PIP_INTERVAL = 180;
+const int PIP_INTERVAL = 220;
 
 /**
  * The number of pip pairs display in the screen in the same time

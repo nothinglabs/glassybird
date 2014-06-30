@@ -1,7 +1,7 @@
 obj/local/armeabi/objs/cocos2dx_static/__/__/external/unzip/ioapi.o: \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/../../external/unzip/ioapi.cpp \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/../../external/unzip/ioapi.h \
- /Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/../../external/unzip/ioapi.cpp \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/../../external/unzip/ioapi.h \
+ /Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -27,9 +27,9 @@ obj/local/armeabi/objs/cocos2dx_static/__/__/external/unzip/ioapi.o: \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/zlib.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/zconf.h
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/../../external/unzip/ioapi.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/../../external/unzip/ioapi.h:
 
-/Users/rich/scratch/badbird2/test555/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
+/Users/rich/android/flap/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h:
 
