@@ -253,7 +253,8 @@ void StatusLayer::onTouch() {
         SimpleAudioEngine::getInstance()->playEffect("sfx_swooshing.ogg");
         this->removeChildByTag(BIRD_SPRITE_TAG);
         auto scene = GameScene::create();
-        scene->tapMode == true;
+        scene->tapMode = true;
+        scene->prep();
         TransitionScene *transition = TransitionFade::create(1, scene);
         Director::getInstance()->replaceScene(transition);
     }
@@ -265,7 +266,8 @@ void StatusLayer::onWink() {
         SimpleAudioEngine::getInstance()->playEffect("sfx_swooshing.ogg");
         this->removeChildByTag(BIRD_SPRITE_TAG);
         auto scene = GameScene::create();
-        scene->tapMode == false;
+        scene->tapMode = false;
+        scene->prep();
         TransitionScene *transition = TransitionFade::create(1, scene);
         Director::getInstance()->replaceScene(transition);
     }

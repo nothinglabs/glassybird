@@ -4,8 +4,14 @@ GameScene::GameScene(){}
 
 GameScene::~GameScene(){}
 
+
 bool GameScene::init(){
-	if(Scene::initWithPhysics()){
+    return true;
+}
+
+
+void GameScene::prep(){
+	Scene::initWithPhysics();
 
 		// Add the background
 		auto backgroundLayer = BackgroundLayer::create();
@@ -49,10 +55,7 @@ bool GameScene::init(){
 			statusOptionLayer->setDelegator(statusLayer);
 			this->addChild(statusOptionLayer);
 		}
-		return true;
-	}else {
-		return false;
-	}
+
 }
 
 void GameScene::restart() {

@@ -43,7 +43,7 @@ const int PIP_WIDTH = 52;
 /**
  * The distance between the down pip and up pip
  */
-const int PIP_DISTANCE_TAP = 110;
+const int PIP_DISTANCE_TAP = 100;
 const int PIP_DISTANCE_WINK = 130;
 
 /**
@@ -55,13 +55,13 @@ const int PIP_INTERVAL_WINK = 320;
 /**
  * How hard to flap
  */
-const int FLAP_VELOCITY_TAP = 170;
+const int FLAP_VELOCITY_TAP = 180;
 const int FLAP_VELOCITY_WINK = 90;
 
 /**
  * Gravity
  */
-const int GRAVITY_TAP = -250;
+const int GRAVITY_TAP = -310;
 const int GRAVITY_WINK = -70;
 
 //rotation

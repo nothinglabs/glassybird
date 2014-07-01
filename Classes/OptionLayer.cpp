@@ -37,7 +37,7 @@ void OptionLayer::onTouchesBegan(const std::vector<Touch*>& touches, Event *even
 
     CCLOG("touch began at %f, %f", position.x, position.y);
 
-	//if positions were zero - assuming was really a wink
+	//if positions were zero (remapped to display) - assuming was really a wink
 	if (position.x < 1 && position.y > 359)
 	{
     	CCLOG("On wink!");

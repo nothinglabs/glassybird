@@ -21,5 +21,7 @@ public:
 
 	GameLayer *gameLayer;
 
+	void prep();
+
 	CREATE_FUNC(GameScene);
 };
