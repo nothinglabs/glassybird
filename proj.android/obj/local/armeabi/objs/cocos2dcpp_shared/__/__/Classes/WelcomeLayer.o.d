@@ -242,7 +242,8 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/WelcomeLayer.o: \
  jni/../../Classes/GameScene.h jni/../../Classes/BackgroundLayer.h \
  jni/../../Classes/GameLayer.h jni/../../Classes/UserRecord.h \
  jni/../../Classes/OptionLayer.h jni/../../Classes/BirdSprite.h \
- jni/../../Classes/StatusLayer.h jni/../../Classes/Number.h
+ jni/../../Classes/StatusLayer.h jni/../../Classes/Number.h \
+ jni/../../Classes/AppDelegate.h
 
 jni/../../Classes/WelcomeLayer.h:
 
@@ -739,3 +740,5 @@ jni/../../Classes/BirdSprite.h:
 jni/../../Classes/StatusLayer.h:
 
 jni/../../Classes/Number.h:
+
+jni/../../Classes/AppDelegate.h:

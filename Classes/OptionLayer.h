@@ -14,6 +14,7 @@ class OptionDelegate
 {
 public:
     virtual void onTouch() = 0;
+    virtual void onWink() = 0;
 };
 
 class OptionLayer:public Layer

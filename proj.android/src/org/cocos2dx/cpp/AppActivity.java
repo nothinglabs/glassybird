@@ -51,6 +51,8 @@ public class AppActivity extends Cocos2dxActivity {
 
         glSurfaceView = new Cocos2dxGLSurfaceView(this);
         glSurfaceView.setEGLConfigChooser(5, 6, 5, 0, 16, 8);
+
+
         return glSurfaceView;
     }
 
@@ -120,7 +122,7 @@ public class AppActivity extends Cocos2dxActivity {
             glSurfaceView.onTouchEvent(motionEvent);
 
             motionEvent = MotionEvent.obtain(
-                    0,0,MotionEvent.ACTION_DOWN,0,0,0);
+                    0,0,MotionEvent.ACTION_UP,0,0,0);
 
             glSurfaceView.onTouchEvent(motionEvent);
 

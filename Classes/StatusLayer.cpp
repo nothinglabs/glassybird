@@ -247,12 +247,28 @@ void StatusLayer::menuRestartCallback(Object* pSender){
     Director::getInstance()->replaceScene(transition);
 }
 
-void StatusLayer::onTouch(){
+
+void StatusLayer::onTouch() {
 	if (tapToRestart) {
-		tapToRestart = false;
-		SimpleAudioEngine::getInstance()->playEffect("sfx_swooshing.ogg");
-		auto scene = GameScene::create();
-		TransitionScene *transition = TransitionFade::create(1, scene);
-		Director::getInstance()->replaceScene(transition);
-	}
+        SimpleAudioEngine::getInstance()->playEffect("sfx_swooshing.ogg");
+        this->removeChildByTag(BIRD_SPRITE_TAG);
+        auto scene = GameScene::create();
+        scene->tapMode == true;
+        TransitionScene *transition = TransitionFade::create(1, scene);
+        Director::getInstance()->replaceScene(transition);
+    }
+
 }
+
+void StatusLayer::onWink() {
+	if (tapToRestart) {
+        SimpleAudioEngine::getInstance()->playEffect("sfx_swooshing.ogg");
+        this->removeChildByTag(BIRD_SPRITE_TAG);
+        auto scene = GameScene::create();
+        scene->tapMode == false;
+        TransitionScene *transition = TransitionFade::create(1, scene);
+        Director::getInstance()->replaceScene(transition);
+    }
+}
+
+

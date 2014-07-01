@@ -1,4 +1,5 @@
 #include "GameLayer.h"
+#include "AppDelegate.h"
 
 GameLayer::GameLayer(){}
 
@@ -12,6 +13,12 @@ bool GameLayer::init(){
 
 		this->gameStatus = GAME_STATUS_READY;
 		this->score = 0;
+
+        flapVelocity = FLAP_VELOCITY_WINK;
+        gravity = GRAVITY_WINK;
+        pipDistance = PIP_DISTANCE_WINK;
+        pipInterval = PIP_INTERVAL_WINK;
+        rotateRate = ROTATE_RATE_WINK;
 
 		// Add the bird
 		this->bird = BirdSprite::getInstance();
@@ -35,7 +42,7 @@ bool GameLayer::init(){
         this->groundNode = Node::create();
         float landHeight = BackgroundLayer::getLandHeight();
         auto groundBody = PhysicsBody::create();
-        groundBody->addShape(PhysicsShapeBox::create(Size(288, landHeight)));
+        groundBody->addShape(PhysicsShapeBox::create(Size(640, landHeight)));
         groundBody->setDynamic(false);
 
 		groundBody->setCategoryBitmask(0x2);    // 0001
@@ -57,6 +64,11 @@ bool GameLayer::init(){
         this->landSpite2->setAnchorPoint(Point::ZERO);
         this->landSpite2->setPosition(this->landSpite1->getContentSize().width-2.0f,0);
         this->addChild(this->landSpite2, 30);
+
+        this->landSpite3 = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("land"));
+        this->landSpite3->setAnchorPoint(Point::ZERO);
+        this->landSpite3->setPosition(this->landSpite1->getContentSize().width * 2 -2.0f,0);
+        this->addChild(this->landSpite3, 30);
 
 		shiftLand = schedule_selector(GameLayer::scrollLand);
         this->schedule(shiftLand, 0.01f);
@@ -82,9 +94,15 @@ bool GameLayer::onContactBegin(PhysicsContact& contact) {
 void GameLayer::scrollLand(float dt){
 	this->landSpite1->setPositionX(this->landSpite1->getPositionX() - 2.0f);
 	this->landSpite2->setPositionX(this->landSpite1->getPositionX() + this->landSpite1->getContentSize().width - 2.0f);
+	this->landSpite3->setPositionX(this->landSpite2->getPositionX() + this->landSpite1->getContentSize().width - 2.0f);
+
 	if(this->landSpite2->getPositionX() == 0) {
 		this->landSpite1->setPositionX(0);
 	}
+
+    if(this->landSpite3->getPositionX() == 0) {
+        this->landSpite2->setPositionX(0);
+    }
 
     // move the pips
     for (auto singlePip : this->pips) {
@@ -98,7 +116,16 @@ void GameLayer::scrollLand(float dt){
     }
 }
 
+void GameLayer::onWink() {
+    if (!tapMode) flapTheBird();
+}
+
 void GameLayer::onTouch() {
+    if (tapMode) flapTheBird();
+}
+
+void GameLayer::flapTheBird() {
+
 	if(this->gameStatus == GAME_STATUS_OVER) {
 		return;
 	}
@@ -110,13 +137,13 @@ void GameLayer::onTouch() {
 		this->gameStatus = GAME_STATUS_START;
         this->createPips();
 	}else if(this->gameStatus == GAME_STATUS_START) {
-		this->bird->getPhysicsBody()->setVelocity(Vect(0, 260));
+		this->bird->getPhysicsBody()->setVelocity(Vect(0, flapVelocity));
 	}
 }
 
 void GameLayer::rotateBird() {
     float verticalSpeed = this->bird->getPhysicsBody()->getVelocity().y;
-    this->bird->setRotation(max(min(90, (verticalSpeed*-0.2 - 60)), -30));
+    this->bird->setRotation(max(min(65, (verticalSpeed*rotateRate - 60)), -40));
 }
 
 
@@ -131,17 +158,18 @@ void GameLayer::createPips() {
     // Create the pips
     for (int i = 0; i < PIP_COUNT; i++) {
         Size visibleSize = Director::getInstance()->getVisibleSize();
+
         Sprite *pipUp = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("pipe_up"));
         Sprite *pipDown = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("pipe_down"));
         Node *singlePip = Node::create();
 
         // bind to pair
-        pipDown->setPosition(0, PIP_HEIGHT + PIP_DISTANCE);
+        pipDown->setPosition(0, PIP_HEIGHT + pipDistance);
 		singlePip->addChild(pipDown, 0, DOWN_PIP);
         singlePip->addChild(pipUp, 0, UP_PIP);
-        singlePip->setPosition(visibleSize.width + i*PIP_INTERVAL + WAIT_DISTANCE, this->getRandomHeight());
+        singlePip->setPosition(visibleSize.width + i*pipInterval + WAIT_DISTANCE, this->getRandomHeight());
 		auto body = PhysicsBody::create();
-		auto shapeBoxDown = PhysicsShapeBox::create(pipDown->getContentSize(),PHYSICSSHAPE_MATERIAL_DEFAULT, Point(0, PIP_HEIGHT + PIP_DISTANCE));
+		auto shapeBoxDown = PhysicsShapeBox::create(pipDown->getContentSize(),PHYSICSSHAPE_MATERIAL_DEFAULT, Point(0, PIP_HEIGHT + pipDistance));
 		body->addShape(shapeBoxDown);
 		body->addShape(PhysicsShapeBox::create(pipUp->getContentSize()));
 		body->setDynamic(false);
@@ -160,8 +188,9 @@ void GameLayer::createPips() {
 
 int GameLayer::getRandomHeight() {
     Size visibleSize = Director::getInstance()->getVisibleSize();
-    return rand()%(int)(2*PIP_HEIGHT + PIP_DISTANCE - visibleSize.height);
+    return (rand()%(int)(PIPE_RAND_RANGE)) - (PIPE_RAND_MIN * -1);
 }
+
 
 void GameLayer::checkHit() {
     for(auto pip : this->pips) {
@@ -195,6 +224,18 @@ void GameLayer::gameOver() {
 	this->birdSpriteFadeOut();
 	this->gameStatus = GAME_STATUS_OVER;
 }
+
+void GameLayer::setTapMode(){
+
+    tapMode = true;
+    flapVelocity = FLAP_VELOCITY_TAP;
+    gravity = GRAVITY_TAP;
+    pipDistance = PIP_DISTANCE_TAP;
+    pipInterval = PIP_INTERVAL_TAP;
+    rotateRate = ROTATE_RATE_TAP;
+
+}
+
 
 void GameLayer::birdSpriteFadeOut(){
     //changes from fadeout - fixed issue with bird vanishing

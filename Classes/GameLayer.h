@@ -39,20 +39,44 @@ const int PIP_HEIGHT = 320;
  */
 const int PIP_WIDTH = 52;
 
+
+/**
+ * The distance between the down pip and up pip
+ */
+const int PIP_DISTANCE_TAP = 110;
+const int PIP_DISTANCE_WINK = 130;
+
+/**
+ * The distance between the pips vertical
+ */
+const int PIP_INTERVAL_TAP = 320;
+const int PIP_INTERVAL_WINK = 320;
+
+/**
+ * How hard to flap
+ */
+const int FLAP_VELOCITY_TAP = 170;
+const int FLAP_VELOCITY_WINK = 90;
+
+/**
+ * Gravity
+ */
+const int GRAVITY_TAP = -250;
+const int GRAVITY_WINK = -70;
+
+//rotation
+const float ROTATE_RATE_TAP = -.5;
+const float ROTATE_RATE_WINK = -1.2;
+
+//PIPE Position
+const int PIPE_RAND_MIN = -60;
+const int PIPE_RAND_RANGE = 150;
+
 /**
  * Pip shift speed
  */
 const float PIP_SHIFT_SPEED = 80.0f;
 
-/**
- * The distance between the down pip and up pip
- */
-const int PIP_DISTANCE = 100;
-
-/**
- * The distance between the pips vertical
- */
-const int PIP_INTERVAL = 180;
 
 /**
  * The number of pip pairs display in the screen in the same time
@@ -104,6 +128,7 @@ public:
 
 	CREATE_FUNC(GameLayer);
 
+
 	/**
 	* According to current game status, give the order to delegate.
 	*/
@@ -116,6 +141,7 @@ public:
 	* This game, user just need only this method to control game
 	*/
 	void onTouch();
+    void onWink();
 
 	/**
 	* This layer need physical engine work
@@ -123,6 +149,14 @@ public:
 	void setPhyWorld(PhysicsWorld* world){this->world = world;}
     
     void update(float delta);
+
+    void setTapMode();
+
+    int flapVelocity;
+    int gravity;
+    int pipDistance;
+    int pipInterval;
+    float rotateRate;
 
 private:
     /**
@@ -170,13 +204,17 @@ private:
     
     vector<Node *> pips;
     
-    Sprite *landSpite1,*landSpite2;
+    Sprite *landSpite1,*landSpite2,*landSpite3,*landSpite4;
 
 	SEL_SCHEDULE  shiftLand;
     
 	void scrollLand(float dt);
 
 	bool onContactBegin(PhysicsContact& contact);
+
+    bool tapMode = false;
+
+	void flapTheBird();
 
 	void gameOver();
 };

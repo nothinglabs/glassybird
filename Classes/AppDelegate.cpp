@@ -1,6 +1,7 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
 #include "LoadingScene.h"
+#include "cocos2d.h"
 
 USING_NS_CC;
 
@@ -16,7 +17,13 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto eglView = director->getOpenGLView();
 
     director->setOpenGLView(eglView);
-	eglView->setDesignResolutionSize(288,512, kResolutionExactFit);
+	//eglView->setDesignResolutionSize(288,512, kResolutionExactFit);
+
+    CCSize screenSize = eglView->getFrameSize();
+
+    CCLOG("screen size %f",screenSize.width);
+
+    eglView->setDesignResolutionSize(640,360, kResolutionShowAll);
 
 
 	// set the resource directory

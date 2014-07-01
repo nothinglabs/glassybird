@@ -37,6 +37,7 @@ public:
 	@brief The function is used to set the resource read directory
 	*/
 	void setResourceSearchResolution();
+
 };
 
 #endif // _APP_DELEGATE_H_

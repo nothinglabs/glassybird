@@ -239,7 +239,8 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/GameLayer.o: \
  jni/../../Classes/BirdSprite.h jni/../../Classes/AtlasLoader.h \
  jni/../../Classes/BackgroundLayer.h \
  /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/audio/android/../include/SimpleAudioEngine.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/audio/android/../include/Export.h
+ /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/audio/android/../include/Export.h \
+ jni/../../Classes/AppDelegate.h
 
 jni/../../Classes/GameLayer.h:
 
@@ -726,3 +727,5 @@ jni/../../Classes/BackgroundLayer.h:
 /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/audio/android/../include/SimpleAudioEngine.h:
 
 /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/audio/android/../include/Export.h:
+
+jni/../../Classes/AppDelegate.h:

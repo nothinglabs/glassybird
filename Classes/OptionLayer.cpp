@@ -33,15 +33,31 @@ bool OptionLayer::init()
 
 void OptionLayer::onTouchesBegan(const std::vector<Touch*>& touches, Event *event)
 {
-	this->delegator->onTouch();
 	Point position = touches[0]->getLocation();
-	lastTouchY = position.y;
+
+    CCLOG("touch began at %f, %f", position.x, position.y);
+
+	//if positions were zero - assuming was really a wink
+	if (position.x < 1 && position.y > 359)
+	{
+    	CCLOG("On wink!");
+
+	    this->delegator->onWink();
+	}
+	else {
+	    lastTouchY = position.y;
+	    this->delegator->onTouch();
+	}
 }
 
 void OptionLayer::onTouchesEnded(const std::vector<Touch*>& touches, Event *event)
 {
 	Point position = touches[0]->getLocation();
 
-	//swipe down to quit
-	if (lastTouchY - position.y > 60) CCDirector::sharedDirector()->end();
+	if (!(position.x == 0 && position.y == 0))
+	{
+	    //swipe down to quit
+	    if (lastTouchY - position.y > 60) CCDirector::sharedDirector()->end();
+	}
+
 }

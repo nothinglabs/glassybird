@@ -22,6 +22,7 @@ public:
 	// implement the "static create()" method manually
 	CREATE_FUNC(WelcomeLayer);
 	void onTouch();
+	void onWink();
 
     
 private:
@@ -37,5 +38,6 @@ private:
 
 	Sprite *land1;
 	Sprite *land2;
+	Sprite *land3;
 	BirdSprite *bird;
 };

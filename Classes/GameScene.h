@@ -17,5 +17,9 @@ public:
     
     void restart();
 
+	bool tapMode;
+
+	GameLayer *gameLayer;
+
 	CREATE_FUNC(GameScene);
 };

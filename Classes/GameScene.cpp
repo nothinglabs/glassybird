@@ -6,8 +6,6 @@ GameScene::~GameScene(){}
 
 bool GameScene::init(){
 	if(Scene::initWithPhysics()){
-		//this->getPhysicsWorld()->setDebugDrawMask(PhysicsWorld::DEBUGDRAW_ALL);
-        this->getPhysicsWorld()->setGravity(Vect(0, -900));
 
 		// Add the background
 		auto backgroundLayer = BackgroundLayer::create();
@@ -18,12 +16,21 @@ bool GameScene::init(){
 		auto statusLayer = StatusLayer::create();
 
 		// Add the main game layer
-		auto gameLayer = GameLayer::create();
+		gameLayer = GameLayer::create();
 		if(gameLayer) {
 			gameLayer->setPhyWorld(this->getPhysicsWorld());
 			gameLayer->setDelegator(statusLayer);
 			this->addChild(gameLayer);
 		}
+
+		CCLOG("gamescene init");
+
+		if (tapMode) {
+		    gameLayer->setTapMode();
+		    CCLOG("init with tapmode!");
+		}
+
+		this->getPhysicsWorld()->setGravity(Vect(0, gameLayer->gravity));
 
 		// Add the game status layer to show the score and game status
 		if(statusLayer) {

@@ -35,6 +35,7 @@ public:
 	void onGameEnd(int curScore, int bestScore);
 
 	void onTouch();
+	void onWink();
 
 
 private:
@@ -75,7 +76,7 @@ private:
 	Sprite* tutorialSprite;
 
 	Sprite* whiteSprite;
-    
+
     int currentScore;
     
     int bestScore;
