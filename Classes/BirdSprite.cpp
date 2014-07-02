@@ -86,25 +86,6 @@ void BirdSprite::createBirdByRandom(){
 		this->isFirstTime &= 1;
 		return ;
 	}
-	srand((unsigned)time(NULL));
-	int type = ((int)rand())% 3;
-	switch (type)
-	{
-	case 0:
-		this->birdName = "bird0_0";
-		this->birdNameFormat = "bird0_%d";
-		break;
-	case 1:
-		this->birdName = "bird1_0";
-		this->birdNameFormat = "bird1_%d";
-		break;
-	case 2:
-		this->birdName = "bird2_0";
-		this->birdNameFormat = "bird2_%d";
-		break;
-	default:
-		this->birdName = "bird2_0";
-		this->birdNameFormat = "bird2_%d";
-		break;
-	}
+    this->birdName = "bird0_0";
+    this->birdNameFormat = "bird0_%d";
 }
