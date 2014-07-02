@@ -17,6 +17,7 @@ using namespace CocosDenshion;
 const string NUMBER_SCORE = "number_score";
 const string NUMBER_FONT = "font";
 const int CURRENT_SCORE_SPRITE_TAG = 10001;
+const int CURRENT_SCORE_SPRITE_LABEL = 10001;
 
 class StatusLayer:public Layer,public StatusDelegate, public OptionDelegate{
 public:
@@ -71,11 +72,9 @@ private:
 
 	Sprite* scoreSprite;
 
-	Sprite* getreadySprite;
-
-	Sprite* tutorialSprite;
-
 	Sprite* whiteSprite;
+
+	CCLabelTTF* scoreLabel;
 
     int currentScore;
     

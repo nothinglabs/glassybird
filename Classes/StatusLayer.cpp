@@ -1,5 +1,5 @@
 #include "StatusLayer.h"
-
+#include <string>
 
 StatusLayer::StatusLayer(){};
 
@@ -20,6 +20,15 @@ bool StatusLayer::init(){
 	this->originPoint = Director::getInstance()->getVisibleOrigin();
 	this->showReadyStatus();
 	this->loadWhiteSprite();
+
+	scoreLabel = CCLabelTTF::create("Score: 0", "Helvetica", 28,
+                                              CCSizeMake(595, 55), kCCTextAlignmentRight);
+    scoreLabel->setPosition(ccp(22,330));
+    scoreLabel->setColor(ccc3(0,0,0));
+    this->addChild(scoreLabel);
+    scoreSprite->setTag(CURRENT_SCORE_SPRITE_TAG);
+
+
 	return true;
 }
 
@@ -28,18 +37,9 @@ void StatusLayer::showReadyStatus() {
 	scoreSprite->setPosition(Point(this->originPoint.x + this->visibleSize.width / 2,this->originPoint.y + this->visibleSize.height *5/6));
 	this->addChild(scoreSprite);
 
-	getreadySprite = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("text_ready"));
-	getreadySprite->setPosition(Point(this->originPoint.x + this->visibleSize.width / 2, this->originPoint.y + this->visibleSize.height *2/3));
-	this->addChild(getreadySprite);
-
-	tutorialSprite = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("tutorial"));
-	tutorialSprite->setPosition(Point(this->originPoint.x + this->visibleSize.width / 2, this->originPoint.y + this->visibleSize.height * 1/2));
-	this->addChild(tutorialSprite);
 }
 
 void StatusLayer::showStartStatus() {
-	this->getreadySprite->runAction(FadeOut::create(0.4f));
-	this->tutorialSprite->runAction(FadeOut::create(0.4f));
 }
 
 void StatusLayer::showOverStatus(int curScore, int bestScore) {
@@ -60,10 +60,9 @@ void StatusLayer::onGameStart(){
 }
 
 void StatusLayer::onGamePlaying(int score){
-	this->removeChild(scoreSprite);
-	this->scoreSprite = (Sprite* )Number::getInstance()->convert(NUMBER_FONT.c_str(), score);
-	scoreSprite->setPosition(Point(this->originPoint.x + this->visibleSize.width / 2,this->originPoint.y + this->visibleSize.height *5/6));
-	this->addChild(scoreSprite);
+	const char *scoreString = String::createWithFormat("%d", score)->getCString();
+	scoreLabel-> setString(scoreString);
+
 }
 
 void StatusLayer::onGameEnd(int curScore, int bestScore){
@@ -137,41 +136,10 @@ void StatusLayer::jumpToScorePanel(){
 	auto scorePanelMoveTo = MoveTo::create(0.8f ,Point(this->originPoint.x + this->visibleSize.width / 2,this->originPoint.y + this->visibleSize.height/2 - 10.0f));
 	// add variable motion for the action
 	EaseExponentialOut* sineIn = EaseExponentialOut::create(scorePanelMoveTo);
-	CallFunc *actionDone = CallFunc::create(bind(&StatusLayer::fadeInRestartBtn, this));
+	CallFunc *actionDone = CallFunc::create(bind(&StatusLayer::refreshScoreCallback, this));
     auto sequence = Sequence::createWithTwoActions(sineIn, actionDone);
     scorepanelSprite->stopAllActions();
-	SimpleAudioEngine::getInstance()->playEffect("sfx_swooshing.ogg");
 	scorepanelSprite->runAction(sequence);
-}
-
-void StatusLayer::fadeInRestartBtn(){
-	Node * tmpNode = Node::create();
-    
-	//create the restart menu;
-	Sprite* restartBtn = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("button_play"));
-	Sprite* restartBtnActive = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("button_play"));
-	restartBtnActive->setPositionY(-4);
-	auto  menuItem = MenuItemSprite::create(restartBtn,restartBtnActive,NULL,CC_CALLBACK_1(StatusLayer::menuRestartCallback,this));
-    auto menu = Menu::create(menuItem,NULL);
-	menu->setPosition(Point(this->originPoint.x + this->visibleSize.width / 2 - restartBtn->getContentSize().width / 2, this->originPoint.y + this->visibleSize.height * 2 / 7 - 10.0f));
-	tmpNode->addChild(menu);
-    
-    
-	//create the rate button. however ,this button is not available yet = =
-	Sprite* rateBtn = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("button_score"));
-	rateBtn->setPosition(Point(this->originPoint.x + this->visibleSize.width / 2 + rateBtn->getContentSize().width / 2, this->originPoint.y + this->visibleSize.height * 2 / 7 - 10.0f));
-	tmpNode->addChild(rateBtn);
-	this->addChild(tmpNode);
-    
-	//fade in the two buttons
-	auto fadeIn = FadeIn::create(0.1f);
-    //tmpNode->stopAllActions();
-	//tmpNode->runAction(fadeIn);
-
-	CallFunc *actionDone = CallFunc::create(bind(&StatusLayer::refreshScoreCallback,this));
-	auto sequence = Sequence::createWithTwoActions(fadeIn,actionDone);
-	tmpNode->stopAllActions();
-	tmpNode->runAction(sequence);
 }
 
 void StatusLayer::refreshScoreCallback(){
@@ -194,6 +162,7 @@ void StatusLayer::refreshScoreExecutor(float dt){
 	if(this->tmpScore > this->currentScore){
 		unschedule(schedule_selector(StatusLayer::refreshScoreExecutor));
 	}
+
 }
 
 void StatusLayer::setBlinkSprite() {

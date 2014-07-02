@@ -40,16 +40,6 @@ bool WelcomeLayer::init(){
 	title->setPosition(Point(origin.x + visiableSize.width/2 , (visiableSize.height * 5) / 7));
 	this->addChild(title);
 
-	//add the start-menu to the current scene
-	Sprite *startButton = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("button_play"));
-	Sprite *activeStartButton = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("button_play"));
-	activeStartButton->setPositionY(5);
-	auto menuItem  = MenuItemSprite::create(startButton,activeStartButton,NULL,CC_CALLBACK_1(WelcomeLayer::menuStartCallback, this));
-	menuItem->setPosition(Point(origin.x + visiableSize.width/2 ,origin.y + visiableSize.height*2/5));
-
-    auto menu = Menu::create(menuItem,NULL);
-	menu->setPosition(Point(origin.x ,origin.y));
-	this->addChild(menu,1);
 
 	//create a bird and set the position in the center of the screen
 	this->bird = BirdSprite::getInstance();
@@ -77,10 +67,23 @@ bool WelcomeLayer::init(){
 
 	this->schedule(schedule_selector(WelcomeLayer::scrollLand), 0.01f);
 
-	//add the copyright-text to the current scne
-	Sprite *copyright = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("brand_copyright"));
-	copyright->setPosition(Point(origin.x + visiableSize.width/2, origin.y + visiableSize.height/6));
-	this->addChild(copyright, 10);
+	CCLabelTTF* startLabel = CCLabelTTF::create("Tap for 'Tap Mode'\nDouble-Blink for 'Blink Mode'", "Helvetica", 37,
+                                          CCSizeMake(485, 202), kCCTextAlignmentCenter);
+    startLabel->setPosition(ccp(315,35));
+	this->addChild(startLabel);
+
+    CCLabelTTF* startLabel2 = CCLabelTTF::create("Be sure to calibrate wink detection in Glass settings!!!", "Helvetica", 23,
+                                          CCSizeMake(595, 55), kCCTextAlignmentRight);
+    startLabel2->setPosition(ccp(293,10));
+    this->addChild(startLabel2);
+    startLabel2->setColor(ccc3(0,0,0));
+
+    CCLabelTTF* startLabel3 = CCLabelTTF::create("Rich Olson / nothinglabs.com", "Helvetica", 23,
+                                          CCSizeMake(595, 55), kCCTextAlignmentRight);
+    startLabel3->setPosition(ccp(22,330));
+    this->addChild(startLabel3);
+    startLabel3->setColor(ccc3(0,0,0));
+
 
 	return true;
 }
@@ -98,9 +101,6 @@ void WelcomeLayer::scrollLand(float dt){
         this->land2->setPositionX(0);
     }
 
-}
-
-void WelcomeLayer::menuStartCallback(Object *sender){
 }
 
 void WelcomeLayer::onTouch() {
