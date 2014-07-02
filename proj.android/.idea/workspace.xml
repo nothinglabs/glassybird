@@ -13,6 +13,7 @@
     </filters>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="WARN" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.nothinglabs.glassybird" />
   </component>
   <component name="ChangeListManager">
@@ -41,8 +42,8 @@
       <file leaf-file-name="GameScene.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Classes/GameScene.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1050">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1050">
+              <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -68,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="atlas.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="atlas.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/image/atlas.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54971856" vertical-offset="97" max-vertical-offset="1155">
-              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WelcomeScene.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Classes/WelcomeScene.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="555">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -98,41 +109,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomeScene.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Classes/WelcomeScene.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="555">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WelcomeScene.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Classes/WelcomeScene.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WelcomeLayer.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Classes/WelcomeLayer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1340" max-vertical-offset="1965">
-              <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1965">
+              <caret line="85" column="0" selection-start-line="80" selection-start-column="4" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatusLayer.cpp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StatusLayer.cpp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Classes/StatusLayer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3650" max-vertical-offset="4230">
-              <caret line="267" column="30" selection-start-line="267" selection-start-column="30" selection-end-line="267" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.88461536" vertical-offset="815" max-vertical-offset="3765">
+              <caret line="85" column="69" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusLayer.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Classes/StatusLayer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1485">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -163,16 +164,16 @@
         <option value="$PROJECT_DIR$/../Classes/AppDelegate.h" />
         <option value="$PROJECT_DIR$/../Classes/AppDelegate.cpp" />
         <option value="$PROJECT_DIR$/../Classes/WelcomeLayer.h" />
-        <option value="$PROJECT_DIR$/../Classes/StatusLayer.h" />
         <option value="$PROJECT_DIR$/../Classes/GameLayer.cpp" />
         <option value="$PROJECT_DIR$/../Classes/OptionLayer.cpp" />
-        <option value="$PROJECT_DIR$/../Classes/StatusLayer.cpp" />
         <option value="$PROJECT_DIR$/../Classes/GameScene.h" />
         <option value="$PROJECT_DIR$/../Classes/GameScene.cpp" />
-        <option value="$PROJECT_DIR$/../Classes/WelcomeLayer.cpp" />
         <option value="$PROJECT_DIR$/../Classes/GameLayer.h" />
         <option value="$PROJECT_DIR$/../Classes/BirdSprite.cpp" />
         <option value="$PROJECT_DIR$/assets/image/atlas.txt" />
+        <option value="$PROJECT_DIR$/../Classes/WelcomeLayer.cpp" />
+        <option value="$PROJECT_DIR$/../Classes/StatusLayer.h" />
+        <option value="$PROJECT_DIR$/../Classes/StatusLayer.cpp" />
       </list>
     </option>
   </component>
@@ -734,6 +735,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1065">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -763,6 +765,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -814,6 +820,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.92" vertical-offset="832" max-vertical-offset="1395">
           <caret line="67" column="95" selection-start-line="67" selection-start-column="95" selection-end-line="67" selection-end-column="95" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -836,6 +843,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="2130">
           <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,6 +851,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="4290">
           <caret line="273" column="32" selection-start-line="273" selection-start-column="32" selection-end-line="273" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -850,6 +859,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -893,6 +903,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1507" max-vertical-offset="2100">
           <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -908,6 +922,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
           <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -944,13 +959,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="1170">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/StatusLayer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1500">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -958,6 +967,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
           <caret line="12" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,42 +1016,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/WelcomeScene.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="555">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Classes/WelcomeScene.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/WelcomeLayer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1340" max-vertical-offset="1965">
-          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/StatusLayer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3650" max-vertical-offset="4230">
-          <caret line="267" column="30" selection-start-line="267" selection-start-column="30" selection-end-line="267" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/GameScene.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1050">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1080,8 +1058,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/image/atlas.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54971856" vertical-offset="97" max-vertical-offset="1155">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/WelcomeScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="555">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/GameScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1050">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/WelcomeLayer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1965">
+          <caret line="85" column="0" selection-start-line="80" selection-start-column="4" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/StatusLayer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1485">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/StatusLayer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88461536" vertical-offset="815" max-vertical-offset="3765">
+          <caret line="85" column="69" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
           <folding />
         </state>
       </provider>
