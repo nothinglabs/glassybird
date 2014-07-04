@@ -15,7 +15,7 @@
    id="svg3800"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="pipe.svg">
+   sodipodi:docname="New document 5">
   <defs
      id="defs3802">
     <linearGradient
@@ -92,7 +92,7 @@
      inkscape:window-height="921"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata3805">
     <rdf:RDF>
@@ -115,19 +115,13 @@
        width="137.14285"
        height="451.42856"
        x="157.14285"
-       y="466.64789"
-       inkscape:export-filename="/Users/rich/android/nothing/glassybird/Resources/image/pipe.png"
-       inkscape:export-xdpi="58.607315"
-       inkscape:export-ydpi="58.607315" />
+       y="466.64789" />
     <rect
        style="fill:url(#linearGradient5820);fill-opacity:1.0;stroke:#000000;stroke-width:2.26248312000000018;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect5782"
        width="154.30965"
        height="52.527931"
        x="147.34525"
-       y="430.10822"
-       inkscape:export-filename="/Users/rich/android/nothing/glassybird/Resources/image/pipe.png"
-       inkscape:export-xdpi="58.607315"
-       inkscape:export-ydpi="58.607315" />
+       y="430.10822" />
   </g>
 </svg>
