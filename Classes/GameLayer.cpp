@@ -211,12 +211,20 @@ void GameLayer::gameOver() {
     }
 	SimpleAudioEngine::getInstance()->playEffect("sfx_hit.ogg");
 	//get the best score
-	int bestScore = UserRecord::getInstance()->readIntegerFromUserDefault("best_score");
-	//update the best score
-	if(this->score > bestScore){
-		UserRecord::getInstance()->saveIntegerToUserDefault("best_score",this->score);
+
+	int bestTapScore = UserRecord::getInstance()->readIntegerFromUserDefault("best_tap_score");
+	int bestBlinkScore = UserRecord::getInstance()->readIntegerFromUserDefault("best_blink_score");
+
+	//update the best scores
+	if(tapMode && this->score > bestTapScore){
+		UserRecord::getInstance()->saveIntegerToUserDefault("best_tap_score",this->score);
 	}
-	this->delegator->onGameEnd(this->score, bestScore);
+
+    if(!tapMode && this->score > bestBlinkScore){
+        UserRecord::getInstance()->saveIntegerToUserDefault("best_blink_score",this->score);
+    }
+
+	this->delegator->onGameEnd(this->score, tapMode, bestTapScore, bestBlinkScore);
 	this->unschedule(shiftLand);
 	SimpleAudioEngine::getInstance()->playEffect("sfx_die.ogg");
 	this->bird->die();
@@ -233,6 +241,8 @@ void GameLayer::setTapMode(){
     pipDistance = PIP_DISTANCE_TAP;
     pipInterval = PIP_INTERVAL_TAP;
     rotateRate = ROTATE_RATE_TAP;
+
+	this->delegator->displayTapMode(tapMode);
 
 }
 

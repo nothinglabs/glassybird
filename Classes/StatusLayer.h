@@ -33,7 +33,9 @@ public:
 
 	void onGamePlaying(int score);
 
-	void onGameEnd(int curScore, int bestScore);
+	void onGameEnd(int curScore, bool tapMode, int bestTapScore, int bestBlinkScore);
+
+	void displayTapMode(bool tapMode);
 
 	void onTouch();
 	void onWink();
@@ -75,6 +77,7 @@ private:
 	Sprite* whiteSprite;
 
 	CCLabelTTF* scoreLabel;
+	CCLabelTTF* tapOrWinkLabel;
 
     int currentScore;
     

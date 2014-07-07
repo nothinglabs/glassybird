@@ -21,12 +21,28 @@ bool StatusLayer::init(){
 	this->showReadyStatus();
 	this->loadWhiteSprite();
 
-	scoreLabel = CCLabelTTF::create("Score: 0", "Helvetica", 28,
+	scoreLabel = CCLabelTTF::create("0", "Arial", 40,
                                               CCSizeMake(595, 55), kCCTextAlignmentRight);
-    scoreLabel->setPosition(ccp(22,330));
-    scoreLabel->setColor(ccc3(0,0,0));
+    scoreLabel->setPosition(ccp(180,334));
+    scoreLabel->setColor(ccc3(200,0,0));
+    scoreLabel->enableStroke(ccWHITE, 3.0,true);
     this->addChild(scoreLabel);
     scoreSprite->setTag(CURRENT_SCORE_SPRITE_TAG);
+
+    tapOrWinkLabel = CCLabelTTF::create("", "Helvetica", 27,
+                                          CCSizeMake(385, 55), kCCTextAlignmentLeft);
+    tapOrWinkLabel->setPosition(ccp(202,330));
+    tapOrWinkLabel->enableStroke(ccWHITE, 1.5,true);
+    this->addChild(tapOrWinkLabel);
+    tapOrWinkLabel->setColor(ccc3(10,92,10));
+    tapOrWinkLabel->setString("Double-blink to flap!");
+
+
+    CCLabelTTF* startLabel3 = CCLabelTTF::create("Rich Olson / nothinglabs.com", "Helvetica", 16,
+                                          CCSizeMake(588, 52), kCCTextAlignmentRight);
+    startLabel3->setPosition(ccp(339,4));
+    this->addChild(startLabel3);
+    startLabel3->setColor(ccc3(0,0,0));
 
 
 	return true;
@@ -40,20 +56,16 @@ void StatusLayer::showReadyStatus() {
 }
 
 void StatusLayer::showStartStatus() {
+
 }
 
-void StatusLayer::showOverStatus(int curScore, int bestScore) {
-    this->currentScore = curScore;
-    this->bestScore = bestScore;
-    if(curScore > bestScore){
-		this->bestScore = curScore;
-		this->isNewRecord = true;
-	}else{
-		this->isNewRecord = false;
-	}
-	this->removeChild(scoreSprite);
-	this->blinkFullScreen();
+void StatusLayer::displayTapMode(bool tapMode) {
+
+    if (tapMode) tapOrWinkLabel->setString("Tap to flap!");
+
 }
+
+
 
 void StatusLayer::onGameStart(){
 	this->showStartStatus();
@@ -65,8 +77,64 @@ void StatusLayer::onGamePlaying(int score){
 
 }
 
-void StatusLayer::onGameEnd(int curScore, int bestScore){
-	this->showOverStatus(curScore,bestScore);
+void StatusLayer::onGameEnd(int curScore, bool tapMode, int bestTapScore, int bestBlinkScore){
+
+	this->isNewRecord = false;
+
+    if(tapMode && curScore > bestTapScore){
+		this->isNewRecord = true;
+        bestTapScore = curScore;
+	}
+
+    if(!tapMode && curScore > bestBlinkScore){
+        this->isNewRecord = true;
+        bestBlinkScore = curScore;
+    }
+
+	this->removeChild(scoreSprite);
+	this->blinkFullScreen();
+
+    CCLabelTTF* startLabel = CCLabelTTF::create("Tap for 'Tap Mode'\nDouble-Blink for 'Blink Mode'", "Helvetica", 37,
+                                          CCSizeMake(485, 202), kCCTextAlignmentCenter);
+    startLabel->setPosition(ccp(315,35));
+    this->addChild(startLabel);
+
+    CCLabelTTF* startLabel2 = CCLabelTTF::create("Problems? Calibrate wink detection in Glass settings!", "Helvetica", 16,
+                                          CCSizeMake(585, 41), kCCTextAlignmentRight);
+    startLabel2->setPosition(ccp(89,10));
+    this->addChild(startLabel2);
+    startLabel2->setColor(ccc3(0,0,0));
+
+
+
+    CCLabelTTF* highScoreLabel = CCLabelTTF::create("NEW HIGH SCORE!", "Helvetica", 30,
+                                              CCSizeMake(285, 41), kCCTextAlignmentLeft);
+    highScoreLabel->setPosition(ccp(331,240));
+    if (this->isNewRecord) this->addChild(highScoreLabel);
+    highScoreLabel->setColor(ccc3(200,0,0));
+
+
+    char blinkScoreTitle[255];
+
+    sprintf(blinkScoreTitle, "Best Blinking Score: %d", bestBlinkScore);
+
+    CCLabelTTF* blinkLabel = CCLabelTTF::create(blinkScoreTitle, "Helvetica", 34,
+                                              CCSizeMake(405, 48), kCCTextAlignmentLeft);
+    blinkLabel->setPosition(ccp(335,213));
+    this->addChild(blinkLabel);
+    blinkLabel->setColor(ccc3(0,60,0));
+
+
+    char tapScoreTitle[255];
+
+    sprintf(tapScoreTitle, "Best Tapping Score: %d", bestTapScore);
+
+    CCLabelTTF* tapScore = CCLabelTTF::create(tapScoreTitle, "Helvetica", 34,
+                                              CCSizeMake(405, 48), kCCTextAlignmentLeft);
+    tapScore->setPosition(ccp(335,170));
+    this->addChild(tapScore);
+    tapScore->setColor(ccc3(0,0,90));
+
 }
 
 void StatusLayer::loadWhiteSprite(){
@@ -91,7 +159,7 @@ void StatusLayer::blinkFullScreen(){
 void StatusLayer::fadeInGameOver(){    
     // create the game over panel
 	Sprite* gameoverSprite = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("text_game_over"));
-	gameoverSprite->setPosition(Point(this->originPoint.x + this->visibleSize.width / 2, this->originPoint.y + this->visibleSize.height *2/3));
+	gameoverSprite->setPosition(Point(this->originPoint.x + this->visibleSize.width / 2, this->originPoint.y + this->visibleSize.height *3/4));
 	this->addChild(gameoverSprite);
 	auto gameoverFadeIn = FadeIn::create(0.5f);
     
@@ -166,30 +234,6 @@ void StatusLayer::refreshScoreExecutor(float dt){
 }
 
 void StatusLayer::setBlinkSprite() {
-	this->blink = Sprite::createWithSpriteFrame(AtlasLoader::getInstance()->getSpriteFrameByName("blink_00"));
-	Animation *animation = Animation::create();
-    animation->setDelayPerUnit(0.1f);
-	for (int i = 0; i < 3; i++){
-		const char *filename = String::createWithFormat("blink_%02d", i)->getCString();
-		SpriteFrame *frame = AtlasLoader::getInstance()->getSpriteFrameByName(filename);
-		animation->addSpriteFrame(frame);
-	}
-	for (int i = 2; i >= 0; i--){
-		const char *filename = String::createWithFormat("blink_%02d", i)->getCString();
-		SpriteFrame *frame = AtlasLoader::getInstance()->getSpriteFrameByName(filename);
-		animation->addSpriteFrame(frame);
-	}
-	auto animate = Animate::create(animation);
-	auto actionDone = CallFunc::create(bind(&StatusLayer::blinkAction,this));
-	auto sequence = Sequence::createWithTwoActions(animate, actionDone);
-	blink->runAction(RepeatForever::create(sequence));
-}
-
-void StatusLayer::blinkAction() {
-	if(this->blink && this->blink->getParent()) {
-		Size activeSize = this->blink->getParent()->getContentSize();
-		this->blink->setPosition(rand()%((int)(activeSize.width)), rand()%((int)(activeSize.height)));
-	}
 }
 
 string StatusLayer::getMedalsName(int score){

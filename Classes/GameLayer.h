@@ -107,6 +107,8 @@ public:
 	*/
 	virtual void onGameStart(void) = 0;
 
+	virtual void displayTapMode(bool tapMode) = 0;
+
 	/**
 	* During paying, after the score changed, this method will be called
 	*/
@@ -115,7 +117,8 @@ public:
 	/**
 	* When game is over, this method will be called
 	*/
-	virtual void onGameEnd(int curSocre, int bestScore) = 0;
+	virtual void onGameEnd(int curScore, bool tapMode, int bestTapScore, int bestBlinkScore) = 0;
+
 };
 
 class GameLayer : public Layer , public OptionDelegate{
