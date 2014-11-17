@@ -69,9 +69,6 @@ public class AppActivity extends Cocos2dxActivity {
     @Override
     protected void onStart() {
         super.onStart();
-
-        mEyeGestureManager.stopDetector(target1);
-        mEyeGestureManager.enableDetectorPersistently(target1, true);
         mEyeGestureManager.register(target1, mEyeGestureListener);
     }
 
@@ -83,11 +80,6 @@ public class AppActivity extends Cocos2dxActivity {
         mEyeGestureManager = EyeGestureManager.from(this);
         mEyeGestureListener = new EyeGestureListener();
 
-        for (EyeGesture eg : EyeGesture.values()) {
-            boolean supported = mEyeGestureManager.isSupported(eg);
-            Log.d("", eg.name() + ":" + supported);
-        }
-
         super.onCreate(savedInstanceState);
     }
 
@@ -97,10 +89,7 @@ public class AppActivity extends Cocos2dxActivity {
         super.onStop();
 
         mEyeGestureManager.unregister(target1, mEyeGestureListener);
-        //mEyeGestureManager.unregister(target2, mEyeGestureListener);
 
-        mEyeGestureManager.stopDetector(target1);
-        //mEyeGestureManager.stopDetector(target2);
     }
 
     private class EyeGestureListener implements Listener {

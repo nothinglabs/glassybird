@@ -1,8 +1,8 @@
 obj/local/armeabi/objs-debug/box2d_static/Collision/b2TimeOfImpact.o: \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/Collision/b2TimeOfImpact.cpp \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/Collision/b2TimeOfImpact.cpp \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -27,20 +27,20 @@ obj/local/armeabi/objs-debug/box2d_static/Collision/b2TimeOfImpact.o: \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Distance.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2TimeOfImpact.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2CircleShape.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2PolygonShape.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Timer.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Distance.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2TimeOfImpact.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2CircleShape.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2PolygonShape.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Timer.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
 
@@ -90,18 +90,18 @@ obj/local/armeabi/objs-debug/box2d_static/Collision/b2TimeOfImpact.o: \
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Distance.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Distance.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2TimeOfImpact.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2TimeOfImpact.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2CircleShape.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2CircleShape.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2PolygonShape.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2PolygonShape.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Timer.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Timer.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h:

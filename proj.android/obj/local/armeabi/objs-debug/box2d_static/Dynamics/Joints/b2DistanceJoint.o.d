@@ -1,9 +1,9 @@
 obj/local/armeabi/objs-debug/box2d_static/Dynamics/Joints/b2DistanceJoint.o: \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/Dynamics/Joints/b2DistanceJoint.cpp \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2DistanceJoint.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/Dynamics/Joints/b2DistanceJoint.cpp \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2DistanceJoint.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -28,20 +28,20 @@ obj/local/armeabi/objs-debug/box2d_static/Dynamics/Joints/b2DistanceJoint.o: \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2Body.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2Body.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/memory \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2TimeStep.h
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2TimeStep.h
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2DistanceJoint.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2DistanceJoint.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
 
@@ -91,14 +91,14 @@ obj/local/armeabi/objs-debug/box2d_static/Dynamics/Joints/b2DistanceJoint.o: \
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2Body.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2Body.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/Shapes/b2Shape.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2BlockAllocator.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h:
 
 /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/memory:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2TimeStep.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Dynamics/b2TimeStep.h:

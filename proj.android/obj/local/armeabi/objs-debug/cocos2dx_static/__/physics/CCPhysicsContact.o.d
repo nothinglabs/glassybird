@@ -1,14 +1,14 @@
 obj/local/armeabi/objs-debug/cocos2dx_static/__/physics/CCPhysicsContact.o: \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsContact.cpp \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsContact.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccConfig.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsContact.cpp \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsContact.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccConfig.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -33,72 +33,72 @@ obj/local/armeabi/objs-debug/cocos2dx_static/__/physics/CCPhysicsContact.o: \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/functional \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccMacros.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccMacros.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/select.h \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/thread \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/vector \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/map \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccConfig.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventListenerCustom.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventListener.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccConfig.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventListenerCustom.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventListener.h \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/set \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEvent.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventCustom.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEvent.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk_types.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpVect.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBB.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpatialIndex.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBody.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpShape.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpPolyShape.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpArbiter.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpace.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsBody.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsShape.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCVector.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEvent.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventCustom.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEvent.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk_types.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpVect.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBB.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpatialIndex.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBody.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpShape.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpPolyShape.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpArbiter.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpace.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsBody.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsShape.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCVector.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
  /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsContactInfo_chipmunk.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsHelper_chipmunk.h
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsContactInfo_chipmunk.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsHelper_chipmunk.h
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsContact.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsContact.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccConfig.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccConfig.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
 
@@ -148,9 +148,9 @@ obj/local/armeabi/objs-debug/cocos2dx_static/__/physics/CCPhysicsContact.o: \
 
 /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/functional:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccMacros.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccMacros.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/select.h:
 
@@ -162,9 +162,9 @@ obj/local/armeabi/objs-debug/cocos2dx_static/__/physics/CCPhysicsContact.o: \
 
 /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
@@ -174,72 +174,72 @@ obj/local/armeabi/objs-debug/cocos2dx_static/__/physics/CCPhysicsContact.o: \
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccConfig.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/ccConfig.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventListenerCustom.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventListenerCustom.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventListener.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventListener.h:
 
 /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/set:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEvent.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEvent.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventCustom.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEventCustom.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEvent.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/CCEvent.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk_types.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk_types.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpVect.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpVect.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBB.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBB.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpatialIndex.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpatialIndex.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBody.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBody.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpShape.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpShape.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpPolyShape.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpPolyShape.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpArbiter.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpArbiter.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpConstraint.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpConstraint.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpace.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpace.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsBody.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsBody.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsShape.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsShape.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCVector.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCVector.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
 
 /Users/rich/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsContactInfo_chipmunk.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsContactInfo_chipmunk.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsHelper_chipmunk.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsHelper_chipmunk.h:

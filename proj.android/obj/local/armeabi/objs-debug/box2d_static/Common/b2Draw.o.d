@@ -1,8 +1,8 @@
 obj/local/armeabi/objs-debug/box2d_static/Common/b2Draw.o: \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/Common/b2Draw.cpp \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Draw.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
- /Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/Common/b2Draw.cpp \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Draw.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
+ /Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -28,11 +28,11 @@ obj/local/armeabi/objs-debug/box2d_static/Common/b2Draw.o: \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
  /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Draw.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Draw.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
 
-/Users/rich/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
+/Users/rich/projects/android/nothing/glassybird/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
 
 /Users/rich/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
 
